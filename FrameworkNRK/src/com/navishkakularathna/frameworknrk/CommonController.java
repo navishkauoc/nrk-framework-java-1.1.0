@@ -16,7 +16,7 @@ public class CommonController {
 			names += fName + ",";
 			try {
 				Object value = field.get(obj);
-				values += "'" + value.toString() + "'";
+				values += "'" + value.toString() + "',";
 			}catch(Exception e) {
 				e.printStackTrace();
 			}
